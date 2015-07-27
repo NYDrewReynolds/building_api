@@ -1,10 +1,16 @@
 class ItemsController < ApplicationController
+  respond_to :html, :json, :xml
+
   def index
     @items = Item.all
+
+    respond_with @items
   end
 
   def show
     @item = Item.find_by(id: params[:id])
+
+    respond_with @item
   end
 
   def new
@@ -15,10 +21,20 @@ class ItemsController < ApplicationController
     @item = Item.new(item_params)
 
     if @item.save
-      redirect_to items_path, notice: "The item was created."
+      respond_to do |format|
+        format.html { redirect_to items_path, notice: "The item was created."}
+        format.json { render json: @item}
+        format.xml  { render xml:  @item}
+      end
     else
-      flash.now[:notice] = "The item was not created."
-      render :edit
+      respond_to do |format|
+        format.html do
+        flash.now[:notice] = "The item was not created."
+        render :edit
+        end
+        format.json { render json: {messages: @item.errors.full_messages} }
+        format.xml { render   xml: {messages: @item.errors.full_messages} }
+      end
     end
   end
 
@@ -30,10 +46,20 @@ class ItemsController < ApplicationController
     @item = Item.find(params[:id])
 
     if @item.update_attributes(item_params)
-      redirect_to item_path(@item), notice: "The item was updated."
+      respond_to do |format|
+        format.html { redirect_to item_path(@item), notice: "The item was updated."}
+        format.json { render json: @item}
+        format.xml { render   xml: @item}
+      end
     else
-      flash.now[:notice] = "The item was not updated."
-      render :edit
+      respond_to do |format|
+        format.html do
+        flash.now[:notice] = "The item was not updated."
+        render :edit
+        end
+        format.json { render json: {messages: @item.errors.full_messages} }
+        format.xml { render   xml: {messages: @item.errors.full_messages} }
+      end
     end
   end
 

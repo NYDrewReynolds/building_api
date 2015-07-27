@@ -10,11 +10,11 @@ class Api::V1::UsersController < ApplicationController
   end
 
   def create
-    respond_with User.create(item_params)
+    respond_with User.create(user_params)
   end
 
   def update
-    respond_with User.update(params[:id], item_params)
+    respond_with User.update(params[:id], user_params)
   end
 
   def destroy
@@ -23,7 +23,7 @@ class Api::V1::UsersController < ApplicationController
 
   private
 
-  def item_params
-    params.require(:item).permit(:name, :email)
+  def user_params
+    params.require(:user).permit(:name, :email)
   end
 end

@@ -1,5 +1,5 @@
 class Api::V1::ItemsController < ApplicationController
-  before_action :authenticate
+  before_action :authenticate, except: [:index, :show]
   respond_to :json, :xml
 
   def index

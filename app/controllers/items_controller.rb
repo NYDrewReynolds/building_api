@@ -1,5 +1,4 @@
 class ItemsController < ApplicationController
-  before_action :authenticate
   def index
     @items = Item.all
   end
@@ -48,15 +47,5 @@ class ItemsController < ApplicationController
 
   def item_params
     params.require(:item).permit(:name, :description, :image_url)
-  end
-
-  def authenticate
-    authenticate_or_request_with_http_basic('Please authenticate to use our API.') do |email, password|
-      user = User.find_by(email: email)
-
-      return true if user && user.authenticate(password)
-
-      head :unauthorized
-    end
   end
 end

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ead78001-0d45-4b8c-b465-ce2397b7b5e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/items_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/items_controller.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/controllers/api/items_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/items_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="building_api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,10 +49,10 @@
         </entry>
       </file>
       <file leaf-file-name="items_controller.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/api/items_controller.rb">
+        <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/items_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19417475">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -113,6 +114,7 @@
         <option value="$PROJECT_DIR$/app/controllers/api/v1_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/items_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/items_controller.rb" />
       </list>
     </option>
   </component>
@@ -269,6 +271,10 @@
               <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -279,6 +285,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/controllers/api/v1" />
+    </key>
   </component>
   <component name="RunManager" selected="Rails.Development: building_api">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -602,10 +613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/items_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/items_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19417475">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
           <folding />
         </state>
       </provider>

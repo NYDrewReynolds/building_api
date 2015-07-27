@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ead78001-0d45-4b8c-b465-ce2397b7b5e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/items_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/items_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/items_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/items_controller.rb" />
     </list>
     <ignored path="building_api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,20 +37,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="items_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="items_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/items_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+            <state vertical-scroll-proportion="-0.3398058">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="items_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="items_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/items_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.776699">
+            <state vertical-scroll-proportion="0.0">
               <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding />
             </state>
@@ -99,11 +99,11 @@
         <option value="$PROJECT_DIR$/app/controllers/orders_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/item.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/items_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/items_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/items_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/items_controller.rb" />
       </list>
     </option>
   </component>
@@ -524,9 +524,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="699" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44481054" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44481054" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -614,18 +614,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/items_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/items_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/items_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/items_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.776699">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state vertical-scroll-proportion="-0.3398058">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>
